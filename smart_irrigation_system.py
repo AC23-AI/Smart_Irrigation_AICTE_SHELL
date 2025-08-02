@@ -15,7 +15,7 @@ import joblib
 # -------------------------------
 
 # Load the dataset (update the filename accordingly)
-df = pd.read_csv(r"C:\Users\USER\Downloads\irrigation_machine.csv")
+df = pd.read_csv(r"irrigation_machine.csv")
 
 df.head() # first 5 rows to be printed
 
