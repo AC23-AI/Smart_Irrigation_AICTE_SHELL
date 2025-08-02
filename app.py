@@ -7,7 +7,7 @@ from PIL import Image
 model = joblib.load("Farm_Irrigation_System.pkl")  
 
 
-image = Image.open(r"C:\Users\USER\Pictures\sprinkler.png") 
+image = Image.open(r"sprinkler.png") 
 st.image(image,width=250)
 st.title("💦Smart Sprinkler System💦")
 st.markdown("An advanced irrigation solution that uses technology like sensors, weather data, and automation to optimize watering for gardens, lawns, farms, and landscapes.")
